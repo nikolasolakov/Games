@@ -1,0 +1,79 @@
+#body{
+    background: tan;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    transition: background-color 0.5s ease;
+}
+#body.fade-away{
+    background: #fe342e;
+}
+#header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    input, div{
+        width: 210px;
+        height: 60px;
+        font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        background: white;
+        font-size: 50px;
+        margin: 10px;
+    }
+    div{
+        background: none !important;
+        color: white;
+        width: 220px;
+    }
+
+}
+#nodes{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: space-evenly;
+    align-content: center;
+    position: relative;
+
+}
+.buttons{
+     margin-top: 200px;
+     width: 250px;
+     height: 120px;
+     font-family: "Jersey 10", sans-serif;
+     font-weight: 400;
+     background: white;
+     font-size: 50px;
+     opacity: 1;
+     transition: opacity 0.5s ease;
+ }
+.buttons.fade {
+    opacity: 0;
+    pointer-events: none;
+}
+.easy{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+}
+.medium{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    color: white;
+}
+.hard{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    color: white;
+}

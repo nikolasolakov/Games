@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="holdDownCSS.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+  <div id="topBar">
+    <input id="again" type="button" value="Again!" onclick="again()">
+    <input id="back" type="button" value="Home" onclick="window.location.href='../homepage.html'">
+  </div>
+  <h1>Hold space down for</h1>
+</div>
+<div id="body">
+    <div id="target">
+      <p id="targetNum"></p>
+    </div>
+    <h1>Seconds</h1>
+</div>
+<div id="footer">
+  <div id="heldFor">
+    <p id="targetHeld">Hoooldd!</p>
+  </div>
+  <div id="result">
+    <p id="resultHeld"></p>
+  </div>
+</div>
+<script src="holdDownJS.js"></script>
+</body>
+</html>

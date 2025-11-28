@@ -1,0 +1,29 @@
+body{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #46ff9b;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 150px;
+}
+#nav{
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-content: center;
+    input{
+        font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background: white;
+        color: #46ff9b;
+        height: 150px;
+        width: 400px;
+        font-size: 60px;
+        -webkit-text-stroke: 0.5px black;
+
+    }
+}

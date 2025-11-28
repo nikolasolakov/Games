@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="header">
+    <div id="topBar">
+      <input id="again" type="button" value="Again!" onclick="again()">
+        <input id="back" type="button" value="Home" onclick="window.location.href='../homepage.html'">
+      <h4>between 1 and 20</h4>
+    </div>
+    <h1>Guess my number!</h1>
+  </div>
+<div id="body">
+  <div id="finalField"></div>
+  
+  <div id="content">
+    <div id="guessField">
+      <input type="text" id="guess" autocomplete="off" inputmode="numeric">
+      <input type="button" id="enter" onclick="check()" value="Check!">
+    </div>
+    <div id="contentField">
+      <ul id="stvari">
+        <li><a id="correctIncorrect"></a></li>
+        <li>Score:<a id="score">0</a></li>
+        <li>Highscore:<a id="highscore">0</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="js.js"></script>
+</body>
+</html>
